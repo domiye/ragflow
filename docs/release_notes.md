@@ -449,7 +449,7 @@ Released on May 13, 2026.
 
 ### Improvements
 
-- S3 connector: Implements ETag-based incremental synchronization for S3 data sources, drastically reducing sync time and AWS egress costs for users with massive-volumn S3-based datasets. [#14628](https://github.com/infiniflow/ragflow/issues/14628)[#14677](https://github.com/infiniflow/ragflow/pull/14677)
+- S3 connector: Implements ETag-based incremental synchronization for S3 data sources, drastically reducing sync time and AWS egress costs for users with massive-volume S3-based datasets. [#14628](https://github.com/infiniflow/ragflow/issues/14628)[#14677](https://github.com/infiniflow/ragflow/pull/14677)
 - API refactoring and security
   - Continues the transition of web APIs to RESTful conventions, ensuring backward compatibility for all legacy endpoints.
   - Binds the `user_id` in `POST /api/v1/messages` to the authenticated JWT principal. [#14745](https://github.com/infiniflow/ragflow/pull/14745)
